@@ -8,13 +8,13 @@ Feature: Youtility App Screen
     When I click on Get Started button
     Then I should be at Terms & Privacy Policy screen
 
-  Scenario: agreeing to the terms & privacy policy
+  Scenario: Agreeing to the terms & privacy policy
     Given I am at Terms and Privacy Policy screen
     When I check the box to accept Terms of service
     And I click the continue button
     Then I navigate to next screen to enter the email address
 
-  Scenario: entering email address
+  Scenario: Entering email address
     Given I am at the email address page
     When I fill the email address textbox with value 'myname@mymail.com'
     And I click the continue button
