@@ -6,7 +6,7 @@ Feature: Youtility App Screen
   Scenario: Introduction to youtility app screen
     Given I open the youtility app
     When I click on Get Started button
-    Then I should be at Terms & Privicy Policy screen
+    Then I should be at Terms & Privacy Policy screen
 
   Scenario: agreeing to the terms & privacy policy
     Given I am at Terms and Privacy Policy screen
